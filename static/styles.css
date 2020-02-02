@@ -1,0 +1,28 @@
+nav.navbar {
+  border: 0;
+}
+@media (max-width: 767px) {
+  nav.navbar .navbar-collapse {
+    border: 0;
+    box-shadow: none;
+  }
+}
+.header {
+  background-image: url('elec1.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+.header.jumbotron h1 {
+  padding-top: 100px;
+}
+.header.jumbotron h1,
+.header.jumbotron p {
+  color: white;
+}
+
+.ins-ic, .fb-ic, .ins-ic:hover, .ins-ic:visited, .fb-ic:hover, .fb-ic:visited,
+ .clean-link, .clean-link:hover, .clean-link:visited {
+  color:#212529;
+  text-decoration: none;
+}
