@@ -1,4 +1,13 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://bulldogbolivia.netlify.com"
+languageCode = "es"
+title = "Bulldog Security"
 theme = "security-company"
+
+[params]
+companyName = "Bulldog Security"
+description = "Seguridad electronica"
+address = "Av. Alemana # 3265"
+email = "gerencia@bulldogbolivia.com"
+phone = "3 254014"
+mobilePhone = "+591 69154634"
+location  = "Santa Cruz - Bolivia"
