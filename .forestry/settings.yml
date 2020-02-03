@@ -13,7 +13,7 @@ sections:
   path: /
   label: Configuration
   create: all
-  match: "*.toml"
+  match: "config.toml"
   new_doc_ext: toml
 upload_dir: static/uploads
 public_path: "/uploads"
