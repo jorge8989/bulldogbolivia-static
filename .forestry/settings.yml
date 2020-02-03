@@ -10,7 +10,7 @@ sections:
   create: all
   match: "*"
 - type: directory
-  path: config.toml
+  path: /
   label: Configuration
   create: all
   new_doc_ext: toml
