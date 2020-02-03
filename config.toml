@@ -1,13 +1,12 @@
 baseURL = "https://bulldogbolivia.netlify.com"
 languageCode = "es"
-title = "Bulldog Security"
 theme = "security-company"
-
+title = "Bulldog Security"
 [params]
-companyName = "Bulldog Security"
-description = "Seguridad electronica"
 address = "Av. Alemana # 3265"
+companyName = "Bulldog Security"
+description = "Seguridad electronica integral"
 email = "gerencia@bulldogbolivia.com"
-phone = "3 254014"
+location = "Santa Cruz - Bolivia"
 mobilePhone = "+591 69154634"
-location  = "Santa Cruz - Bolivia"
+phone = "3 254014"

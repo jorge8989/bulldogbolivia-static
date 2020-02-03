@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: "/static/admin"
-webhook_url:
+webhook_url: 
 sections:
 - type: directory
   path: content
@@ -10,10 +10,10 @@ sections:
   create: all
   match: "*"
 - type: directory
-  path: /
+  path: ''
   label: Configuration
   create: all
-  match: "config.toml"
+  match: config.toml
   new_doc_ext: toml
 upload_dir: static/uploads
 public_path: "/uploads"
