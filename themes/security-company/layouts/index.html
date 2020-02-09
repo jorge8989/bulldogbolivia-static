@@ -1,90 +1,11 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>{{ .Title }}</title>
+{{ define "main" }}
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- Bootstrap core CSS -->
-    <!-- Custom styles for this template -->
-    <link href="font-awesome/css/all.css" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">
-        <img src="logo.jpg" width="115" height="30" alt="">
-      </a>
-    </nav>
-    <div class="jumbotron header">
-      <div class="container">
-        <h1>{{ .Site.Params.companyName }}</h1>
-        <p>{{ .Site.Params.description }}</p>
-        <!-- Grid column -->
-      </div>
-    </div>
-    <!-- Footer -->
-<footer class="page-footer font-small mdb-color lighten-3 pt-4">
-
-  <!-- Footer Links -->
-  <div class="container text-center text-md-left">
-    <!-- Grid row -->
-    <div class="row">
-      <!-- Grid column -->
-      <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
-        <!-- Content -->
-        <h5 class="font-weight-bold text-uppercase mb-4">Contacto</h5>
-        <ul class="list-unstyled">
-          <li>
-            <p>
-              <i class="fas fa-home mr-3"></i> {{ .Site.Params.address }}</p>
-          </li>
-          <li>
-            <p>
-              <i class="fas fa-envelope mr-3"></i> {{ .Site.Params.email }}</p>
-          </li>
-          <li>
-            <p>
-              <i class="fas fa-phone mr-3"></i> {{ .Site.Params.phone }}</p>
-          </li>
-          <li>
-            <p>
-              <i class="fas fa-mobile-alt mr-3"></i> {{ .Site.Params.mobilePhone }}</p>
-          </li>
-        </ul>
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-
-    </div>
-    <!-- Grid row -->
-
-
-  <!-- Footer Links -->
-
-  <!-- Copyright -->
-  <div class="col-md-12">
-    <div style="text-align:right;">
-      <!-- Facebook -->
-      <a class="fb-ic" href="{{ .Site.Params.facebookURL }}" target="_BLANK">
-        <i class="fab fa-facebook-f fa-lg white-text mr-4"> </i>
-      </a>
-      <!--Instagram-->
-      <a class="ins-ic" href="{{ .Site.Params.instagramURL }}" target="_BLANK">
-        <i class="fab fa-instagram fa-lg white-text mr-4"> </i>
-      </a>
-    </div>
+<div class="jumbotron header">
+  <div class="container">
+    <h1>{{ .Site.Params.companyName }}</h1>
+    <p>{{ .Site.Params.description }}</p>
+    <!-- Grid column -->
   </div>
-  <div class="footer-copyright text-center py-3">© 2020 -
-    <a href="{{ .Site.BaseURL }}" class="clean-link">{{ .Site.Params.location }}</a>
-  </div>
-  <!-- Copyright -->
+</div>
 
-</footer>
-<!-- Footer -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-</body>
-</html>
+{{ end }}
